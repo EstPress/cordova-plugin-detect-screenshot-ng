@@ -1,0 +1,24 @@
+{
+	"name": "cordova-plugin-detect-screenshot-ng",
+	"version": "1.0.0",
+	"description": "Detects screenshots on Android and iOS",
+	"cordova": {
+		"id": "cordova-plugin-detect-screenshot-ng",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/iOleks/cordova-plugin-detect-screenshot-ng.git"
+	},
+	"keywords": [
+		"cordova",
+		"ecosystem:cordova",
+		"cordova-android"
+		"cordova-ios"
+	],
+	"author": "Restocks, EstPress",
+	"license": "MIT"
+}

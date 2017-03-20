@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-detect-screenshot-ng" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+	<name>cordova-plugin-detect-screenshot-ng</name>
+  
+  
+	<platform name="android">
+
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="DetectScreenshot">
+				<param name="android-package" value="com.estpress.DetectScreenshot"/>
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+
+		<source-file src="src/android/DetectScreenshot.java" target-dir="src/com/estpress"/>
+	</platform>
+  
+  
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="DetectScreenshot">
+                <param name="ios-package" value="screenshot" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/DetectScreenshot.h" />
+        <source-file src="src/ios/DetectScreenshot.m" />
+
+    </platform>
+</plugin>
