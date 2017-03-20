@@ -15,6 +15,7 @@ When a screenshot occurs, a 'screenshot' event is triggered. Simply listen for t
 The MIT License (MIT)
 
 Copyright (c) 2017 EstPress
+
 Copyright (c) 2016 Restocks
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
