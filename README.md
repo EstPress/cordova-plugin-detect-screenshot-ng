@@ -2,7 +2,7 @@
 Detects screenshots on Cordova for Android and iOS. This is a fork of the official plugin https://github.com/restocks/cordova-plugin-detect-screenshot
 
 ## Installation
-`cordova plugin add https://bitbucket.org/estpress/cordova-plugin-detect-screenshot-ng`
+`cordova plugin add https://github.com/EstPress/cordova-plugin-detect-screenshot-ng`
 
 ## Usage
 When a screenshot occurs, a 'screenshot' event is triggered. Simply listen for this event in your javascript.
@@ -15,7 +15,6 @@ When a screenshot occurs, a 'screenshot' event is triggered. Simply listen for t
 The MIT License (MIT)
 
 Copyright (c) 2017 EstPress
-
 Copyright (c) 2016 Restocks
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
